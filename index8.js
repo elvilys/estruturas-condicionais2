@@ -5,7 +5,7 @@ if (idadeAtleta <=12)
     document.write("categoria infantil")
 
 else if (pesoAtleta <=30){
-    document.write("categoria infantil");
+    document.write(" peso categoria infantil");
  
     }
 if (idadeAtleta >=13 && idadeAtleta <=16){
@@ -21,6 +21,5 @@ if(idadeAtleta >=17 && idadeAtleta <=24){
     document.write("categoria veterano")
 } else if ( pesoAtleta >60){
     document.write("categoria peso veterano")
-} else{
-    document.write("idade e peso invalido")
+
 }
